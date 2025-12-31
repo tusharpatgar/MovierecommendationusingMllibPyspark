@@ -1,46 +1,31 @@
-Movie Recommendation System (PySpark)
-Overview
-
+**Movie Recommendation System (PySpark)**
+**Overview**
 A movie recommendation system built using PySpark and the ALS algorithm on Databricks.
 The model predicts user ratings for movies and is evaluated using RMSE.
 
-Tools Used
-
+**Tools Used**
 Python
-
 PySpark
-
 Spark MLlib
-
 Databricks
 
-Data
-
+**Data**
 movies.csv
-
 ratings.csv
 
-Steps
-
+**Steps**
 Load datasets into Spark
-
 Join movies and ratings
-
 Split data into train and test
-
 Train ALS model
-
 Evaluate using RMSE
 
-Algorithm
-
+**Algoritm**
 ALS (Alternating Least Squares)
 Used for collaborative filtering in recommendation systems.
 
-Output
-
+**Output**
 Model performance is measured using RMSE.
 
-Author
-
+**Author**
 Tushar Patgar
